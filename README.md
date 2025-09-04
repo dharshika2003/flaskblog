@@ -5,19 +5,43 @@ worked on developing a web application using Python Flask. The project involved 
       User Account Management: Updating username, email, and profile picture.
       Content Management (CRUD): Create, Read, Update, Delete operations on user posts using Flask-SQLAlchemy.
 
-Technologies & Tools Used:
-      Backend: Python Flask (routing, templates, forms, extensions)
-      Frontend: HTML, CSS
-      Database: SQLite/MySQL (via SQLAlchemy ORM)
-      Security: Flask-Bcrypt for password hashing
-      Validation: Flask-WTF with email_validator
-      Image Handling: Pillow (PIL) for profile pictures
 
-Skills Acquired:
-      Flask framework (blueprints, Jinja2 templates, form handling)
-      ORM-based database design and queries
-      Authentication and authorization mechanisms
-      Debugging and performance optimization
-      Collaborative development and project management
+Features: 
+            User Authentication:
+                  Signup & Login functionality
+                  Secure password hashing with Flask-Bcrypt
+                  Email validation using email-validator
+            User Account Management:
+                  Update username, email, and profile picture
+                  Profile picture processing with Pillow (PIL)
+            Content Management System (CMS):
+                  Create, Read, Update, Delete (CRUD) posts
+                  Database integration with Flask-SQLAlchemy
+            Frontend:
+                  Templates rendered with Jinja2
+                  Responsive design using HTML/CSS
+
+Tech Stack :
+      Backend: Python, Flask
+      Frontend: HTML, CSS
+      Database: SQLite/MySQL with SQLAlchemy ORM
+      Security: Flask-Bcrypt, Flask-WTF for form handling
+      Libraries/Extensions:
+            flask
+            flask-sqlalchemy
+            flask-wtf
+            flask-bcrypt
+            flask-login
+            pillow
+            email-validator
+
+Skills Gained:
+            Web application development with Python Flask
+            Database design and ORM integration
+            Authentication & authorization mechanisms
+            CRUD operations in a web environment
+            Debugging, optimization, and project management in real-world settings
+
+
 
 This hands-on experience strengthened my expertise in Python web development, database integration, and secure authentication systems, preparing me for future work in full-stack web application development.
