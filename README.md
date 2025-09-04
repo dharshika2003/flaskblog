@@ -77,33 +77,4 @@ Flask-Blog/
 └── venv/                     # Virtual environment (optional, usually ignored)
 
 
-
-----  Installation  ----
-
-Clone the repository:
-git clone https://github.com/your-username/flask-blog.git
-cd flask-blog
-
-Create a virtual environment:
-python -m venv venv
-venv\Scripts\activate   # On Windows
-source venv/bin/activate  # On Mac/Linux
-
-Install dependencies:
-pip install -r requirements.txt
-
-Set up the database:
-python
->>> from flaskblog import db
->>> db.create_all()
->>> exit()
-
-Run the application:
-      python run.py
-
-App runs at: http://127.0.0.1:5000/
-
-
-
-
 This hands-on experience strengthened my expertise in Python web development, database integration, and secure authentication systems, preparing me for future work in full-stack web application development.
