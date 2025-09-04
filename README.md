@@ -43,21 +43,38 @@ Skills Gained:
             Debugging, optimization, and project management in real-world settings
 
 
+
+
 Flask-Blog/
 │
-├── flaskblog/
-│   ├── __init__.py        # App factory and configurations
-│   ├── routes.py          # Application routes
-│   ├── models.py          # Database models
-│   ├── forms.py           # Flask-WTF forms
-│   ├── static/            # CSS, images, etc.
-│   └── templates/         # HTML templates (Jinja2)
+├── flaskblog/                
+│   ├── __init__.py            
+│   ├── routes.py              
+│   ├── models.py             
+│   ├── forms.py               
+│   ├── static/                
+│   │   ├── main.css
+│   │   └── profile_pics/     
+│   └── templates/            
+│       ├── layout.html       
+│       ├── home.html
+│       ├── login.html
+│       ├── register.html
+│       ├── account.html
+│       └── post.html
 │
-├── run.py                 # Entry point to run the app
-├── requirements.txt       # Dependencies
-└── README.md              # Project documentation
-
-
+├── instance/                 # Stores SQLite DB & config (auto-created)
+│   └── site.db
+│
+├── run.py                    # Entry point for running Flask app
+│
+├── requirements.txt          # Dependencies
+│
+├── README.md                 # Project documentation
+│
+├── .gitignore                # Ignore cache, venv, db, etc.
+│
+└── venv/                     # Virtual environment (optional, usually ignored)
 
 
 This hands-on experience strengthened my expertise in Python web development, database integration, and secure authentication systems, preparing me for future work in full-stack web application development.
