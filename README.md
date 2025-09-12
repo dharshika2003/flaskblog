@@ -1,4 +1,11 @@
+
 # Flask Blog
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)  
+![Flask](https://img.shields.io/badge/Flask-Framework-black?logo=flask)  
+![Database](https://img.shields.io/badge/Database-SQLite%2FMySQL-orange?logo=sqlite)  
+![License](https://img.shields.io/badge/License-MIT-green)  
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 A web application built with **Python Flask**, implementing user authentication, account management, and content management features.
 
